@@ -18,6 +18,6 @@
 sudo apt-get remove ansible
 sudo apt-add-repository --remove ppa:ansible/ansible -y && sudo add-apt-repository ppa:ansible/ansible-2.6 -y && sudo apt install ansible -y
 apt-get update -y
-apt-get install ansible 2.6 -y
+apt-get install ansible 2.6.2 -y
 apt-mark hold ansible
 yes | apt-get update
